@@ -1,0 +1,6 @@
+#include "Res/colorPickerMnu.rc"
+#include "Res/colorPickerDlg.rc"
+#include "Res/colorPickerRes.rc"
+
+#define IDI_WIN_MAIN	100
+IDI_WIN_MAIN	ICON	"Res/Main.ICO"

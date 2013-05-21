@@ -1,0 +1,25 @@
+#include "E:\RadASM\masm32\include\resource.h"
+
+//定义位图资源
+#define	IDB_Google	115
+IDB_Google	BITMAP	DISCARDABLE	"Google.bmp"
+
+//定义对话框资源
+#define	IDD_DIALOG_MAIN	311
+#define	IDC_PICTURE		310
+
+//定义按钮资源
+#define	IDC_BUTTON_SHOW		1000
+#define	IDC_BUTTON_DELETE	1001
+#define	IDM_EXIT		40001
+
+IDD_DIALOG_MAIN	DIALOG	DISCARDABLE	0, 0, 315, 115
+STYLE	DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION	"Google Logo"
+FONT	10, "System"
+{
+	CONTROL		"", IDC_PICTURE, "Static", SS_BITMAP, 10, 10, 587, 157
+	PUSHBUTTON	"显示位图", IDC_BUTTON_SHOW, 10, 100, 50, 11
+	PUSHBUTTON	"清除位图", IDC_BUTTON_DELETE, 135, 100, 50, 11
+	PUSHBUTTON	"退出程序", IDM_EXIT, 253, 100, 50, 11
+}

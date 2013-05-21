@@ -1,0 +1,6 @@
+#include "Res/09051109周昌权Mnu.rc"
+#include "Res/09051109周昌权Res.rc"
+#include "Res/09051109周昌权Dlg.rc"
+
+#define IDI_WIN_MAIN	100
+IDI_WIN_MAIN ICON	"Res/Main.ICO"
